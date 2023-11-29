@@ -311,3 +311,76 @@ nav > .connexion > img {
 .Section3 img {
   border-radius: 20px;
 }
+
+/*Section 4*/
+.Section4 {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 800px;
+}
+
+.pers {
+  display: flex;
+  gap: 30px;
+}
+
+.ecriture > p > span {
+  color: #96c67f;
+  text-decoration: underline;
+}
+
+.ecriture > p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.ecriture {
+  margin: 30px;
+  width: 600px;
+}
+
+.entete {
+  display: flex;
+}
+
+.entete > .nom > h3 {
+  color: #96c67f;
+}
+.entete > img {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.pers1,
+.pers2,
+.pers3,
+.pers4,
+.pers5 {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 50px;
+}
+.Section4 .pers .contenu {
+  display: none;
+}
+
+.Section4 .pers .contenu.active {
+  display: block;
+}
+
+.fleche {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.fleche > img {
+  width: 50px;
+  border-radius: 30px;
+  border: solid #96c67f 1px;
+  cursor: pointer;
+}
