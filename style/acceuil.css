@@ -454,3 +454,44 @@ footer a {
 .partiBas > h3 {
   text-align: center;
 }
+
+/*taille mobile  */
+@media screen and (max-width: 500px) {
+  body {
+    width: 500px;
+  }
+
+  /*footer*/
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  footer .change {
+    display: none;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  footer > img {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  footer img {
+    width: 200px;
+    order: -1;
+  }
+
+  .boxBlanc {
+    width: 300px;
+  }
+
+  footer > .partHaut {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
