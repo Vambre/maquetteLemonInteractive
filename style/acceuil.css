@@ -384,3 +384,73 @@ nav > .connexion > img {
   border: solid #96c67f 1px;
   cursor: pointer;
 }
+
+/*footer*/
+.container {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.boxVert {
+  width: 75px;
+  padding: 10px;
+  background: #96c67f;
+}
+
+.boxBlanc {
+  width: 300px;
+  padding: 10px;
+  background: white;
+}
+
+.subscribe {
+  color: white;
+  word-wrap: break-word;
+}
+
+.email {
+  color: #96c67f;
+  word-wrap: break-word;
+}
+
+footer > .partHaut {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.partDroite > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+footer > img {
+  padding-left: 50px;
+}
+
+footer > .partHaut > .partGauche {
+  padding-left: 50px;
+}
+.partHaut > .partDroite {
+  display: flex;
+  gap: 50px;
+  margin: auto;
+}
+
+footer {
+  display: grid;
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 50px;
+}
+
+footer a {
+  color: white;
+}
+
+.partiBas > h3 {
+  text-align: center;
+}
