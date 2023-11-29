@@ -461,6 +461,22 @@ footer a {
     width: 500px;
   }
 
+  /*Section2*/
+  .Section2 {
+    display: flex;
+    width: 400px;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .Section2 .boxUn,
+  .boxDeux {
+    width: 314px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-top: 50px;
+  }
+
   /*Section4*/
   .Section4 {
     flex-direction: column;
