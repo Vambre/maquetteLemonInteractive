@@ -1,0 +1,83 @@
+@media screen and (max-width: 500px) {
+  body {
+    font-family: Open Sans;
+  }
+  header > nav {
+    box-shadow: 0px 4px 8px 0px rgba(200, 200, 200, 0.25);
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  header > nav > img {
+    display: flex;
+  }
+
+  header > nav > ul {
+    display: none;
+  }
+
+  header > nav > .connexion {
+    display: none;
+  }
+  header > .deroulant {
+    display: flex;
+    flex-direction: column;
+  }
+  header > .deroulant > .recherche {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  }
+  header > .deroulant > .recherche > input {
+    background-color: #f8f8f8;
+    height: 50px;
+    width: 380px;
+    border: none;
+  }
+
+  header > .deroulant > .recherche > img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  header > .deroulant > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 10px;
+    top: 150px;
+    font-size: 20px;
+  }
+  header > .deroulant > ul > a {
+    text-decoration: none;
+    color: #404040cc;
+  }
+  header > .deroulant > .connexion {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+
+  header > .deroulant > .connexion > .login {
+    color: #96c67f;
+    text-decoration: none;
+  }
+  header > .deroulant > .connexion > .register {
+    background-color: #96c67f;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+}

@@ -461,6 +461,24 @@ footer a {
     width: 500px;
   }
 
+  /*header*/
+  header {
+    box-shadow: 0px 4px 8px 0px rgba(200, 200, 200, 0.25);
+  }
+
+  header > nav > .menu,
+  header > nav > .changer {
+    display: flex;
+  }
+
+  header > nav > ul {
+    display: none;
+  }
+
+  header > nav > .connexion {
+    display: none;
+  }
+
   /*Section2*/
   .Section2 {
     display: flex;
