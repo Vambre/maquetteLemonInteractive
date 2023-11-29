@@ -586,6 +586,22 @@ footer a {
     margin-top: 50px;
   }
 
+  .Section2 > .boxUn img,
+  .Section2 > .boxDeux img {
+    width: 45px;
+    height: 44px;
+  }
+
+  .Section2 > .boxUn h3,
+  .Section2 > .boxDeux h3 {
+    font-size: 20px;
+  }
+
+  .Section2 > .boxUn p,
+  .Section2 > .boxDeux p {
+    font-size: 14px;
+  }
+
   .Section2 {
     overflow-x: scroll;
     width: 500px;
