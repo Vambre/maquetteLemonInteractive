@@ -577,8 +577,41 @@ footer a {
     margin-top: 50px;
   }
 
+  .Section2 {
+    overflow-x: scroll;
+    width: 500px;
+  }
+
+  /*Section3*/
+  .Section3 > .content-box {
+    left: 0px;
+    margin-top: 320px;
+  }
+
+  .Section3 > .content-box > h2 {
+    font-size: 20px;
+  }
+
+  .Section3 > .content-box > h3 {
+    font-size: 16px;
+  }
+
+  .Section3 > .content-box > .desc {
+    font-size: 14px;
+  }
+
+  .Section3 > .image-box > .green-box {
+    width: 400px;
+    height: 400px;
+  }
+  .Section3 > .image-box img {
+    width: 300px;
+    height: 300px;
+  }
+
   /*Section4*/
   .Section4 {
+    margin-top: 700px;
     flex-direction: column;
   }
   .Section4 > .ecriture {
@@ -601,6 +634,7 @@ footer a {
     flex-direction: column-reverse;
     align-items: flex-start;
     gap: 30px;
+    width: 400px;
   }
   footer .change {
     display: none;
