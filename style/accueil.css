@@ -456,7 +456,7 @@ footer a {
   text-align: center;
 }
 
-/*taille mobile  */
+/*taille mobile*/
 @media screen and (max-width: 500px) {
   /*header*/
   header {
@@ -489,14 +489,14 @@ footer a {
   /*Section1*/
   .Section1 > .box1 {
     top: -95px;
-    height: 400px;
+    height: 300px;
     margin-left: -20px;
     border-radius: 0px 0px 30px 30px;
     width: 500px;
   }
   .Section1 > .box1 > h2 {
     color: black;
-    font-size: 30px;
+    font-size: 16px;
     margin-top: 20px;
     width: 100%;
   }
@@ -504,15 +504,18 @@ footer a {
   .Section1 > .box1 > .box2 > h3 {
     margin-top: 150px;
     margin-left: -50px;
+    font-size: 20px;
   }
 
   .Section1 > .box1 > .box2 > p {
     margin-left: -50px;
+    margin-top: 0px;
     width: 500px;
+    font-size: 14px;
   }
 
   .Section1 > .box1 > .box3 {
-    top: 250px;
+    top: 150px;
     left: -30px;
   }
 
