@@ -80,7 +80,7 @@ nav > .connexion > img {
   margin: 50px 20px;
   position: relative;
   margin-top: 100px;
-  margin-bottom: 500px;
+  margin-bottom: 700px;
 }
 
 .Section1 > .box1 {
@@ -92,28 +92,30 @@ nav > .connexion > img {
   border-radius: 20px;
 }
 .box2 {
+  margin-top: -150px;
   display: flex;
   flex-direction: column;
   margin-left: 100px;
   width: 100%;
 }
 
-.Section1 > h2 {
+.Section1 > .box1 > h2 {
   color: #f8f8f8;
   font-size: 120px;
   margin-left: 50px;
+  margin-top: -90px;
+  width: 100%;
 }
 
 .box2 > h3 {
   color: black;
   font-size: 60px;
-  margin-top: 100px;
 }
 
 .box2 > p {
   color: black;
   font-size: 16px;
-  margin-top: -50px;
+  margin-top: -30px;
   width: 30%;
 }
 
@@ -130,7 +132,6 @@ nav > .connexion > img {
   left: 148px;
   top: 0;
   position: absolute;
-  background: #cecece;
   border-radius: 20px;
   overflow: hidden;
   flex-direction: column;
@@ -479,6 +480,87 @@ footer a {
     display: none;
   }
 
+  /*Section1*/
+  .Section1 > .box1 {
+    top: -95px;
+    height: 400px;
+    margin-left: -20px;
+    border-radius: 0px 0px 30px 30px;
+    width: 500px;
+  }
+  .Section1 > .box1 > h2 {
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .Section1 > .box1 > .box2 > h3 {
+    margin-top: 150px;
+    margin-left: -50px;
+  }
+
+  .Section1 > .box1 > .box2 > p {
+    margin-left: -50px;
+    width: 500px;
+  }
+
+  .Section1 > .box1 > .box3 {
+    top: 250px;
+    left: -30px;
+  }
+
+  .Section1 > .box1 > .box3 > .imageSec1 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .Section1 > .box1 > .box3 > .imageSec1 > img {
+    width: 100%;
+    border-radius: 20px;
+    height: 400px;
+  }
+
+  .Section1 > .box1 > .box3 > .info-box {
+    top: 200px;
+    padding: 0px;
+    width: 200px;
+    margin-left: 50px;
+  }
+
+  .Section1 > .box1 > .box3 > .info-box > .ecriture-box > p {
+    font-size: 15px;
+  }
+
+  .Section1 > .box1 > .box3 > .info-box > .plusieurimg > img {
+    width: 50px;
+    border: 1px;
+  }
+
+  .Section1 > .box1 > .box3 > .info-box > .plusieurimg {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+
+  .Section1 > .box1 > .box3 > .stats-box {
+    top: 250px;
+    width: 90px;
+    height: 90px;
+    left: 350px;
+  }
+  .Section1 > .box1 > .box3 > .stats-box > .icon {
+    width: 20px;
+  }
+
+  .Section1 > .box1 > .box3 > .stats-box > .stats > p {
+    margin: auto;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .Section1 > .box1 > .box3 > .stats-box > .stats > p > span {
+    font-size: 14px;
+  }
   /*Section2*/
   .Section2 {
     display: flex;
