@@ -461,6 +461,24 @@ footer a {
     width: 500px;
   }
 
+  /*Section4*/
+  .Section4 {
+    flex-direction: column;
+  }
+  .Section4 > .ecriture {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .fleche > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid #96c67f 1px;
+    cursor: pointer;
+  }
+
   /*footer*/
   footer {
     display: flex;
