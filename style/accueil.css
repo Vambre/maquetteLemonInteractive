@@ -192,7 +192,7 @@ nav > .connexion > a {
 .stats-box {
   width: 129px;
   height: 146px;
-  padding: 20px 10px 0px 10px;
+  padding: 15px 13px 0px 13px;
   left: 469px;
   top: 300px;
   position: absolute;
@@ -210,8 +210,8 @@ nav > .connexion > a {
   height: 100%;
 }
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 16px;
+  height: 16px;
   padding: 7px;
   background: #e4f9db;
   border-radius: 30px;
@@ -219,12 +219,16 @@ nav > .connexion > a {
 
 .stats-box > .stats > p > span {
   color: #96c67f;
-  font-size: 20px;
+  font-size: 24px;
   display: inline-flex;
   align-items: center;
   flex-direction: column;
   justify-items: center;
   width: 100%;
+}
+
+.stats-box > .stats > p {
+  font-size: 12px;
 }
 
 /*Section2*/
