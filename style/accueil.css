@@ -456,9 +456,11 @@ footer > .partHaut {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  font-size: 14px;
   gap: 10px;
 }
 footer > img {
+  margin-top: 30px;
   padding-left: 50px;
 }
 
@@ -471,6 +473,18 @@ footer > .partHaut > .partGauche {
   margin: auto;
 }
 
+footer > .partHaut > .partGauche h3 {
+  font-size: 33px;
+}
+
+footer > .partHaut > .partGauche p {
+  font-size: 16px;
+}
+
+footer > .partiBas .email,
+footer > .partiBas .subscribe {
+  font-size: 14px;
+}
 footer {
   display: grid;
   color: white;
@@ -485,6 +499,7 @@ footer a {
 
 .partiBas > h3 {
   text-align: center;
+  font-size: 24px;
 }
 
 /*taille mobile*/
