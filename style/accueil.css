@@ -255,7 +255,8 @@ nav > .connexion > a {
 }
 
 .Section2 > .boxUn > img {
-  width: 50px;
+  width: 44px;
+  height: 44px;
   background-color: #96c67f;
   border-radius: 20px;
   padding: 10px;
@@ -264,12 +265,24 @@ nav > .connexion > a {
 }
 
 .Section2 > .boxDeux > img {
-  width: 50px;
+  width: 44px;
+  height: 44px;
   background-color: #f8f8f8;
   border-radius: 20px;
   padding: 10px;
   margin-top: -50px;
   margin-bottom: 20px;
+}
+
+.Section2 > .boxUn h3,
+.Section2 > .boxDeux h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Section2 > .boxUn p,
+.Section2 > .boxDeux p {
+  font-size: 16px;
 }
 
 /*Section 3*/
