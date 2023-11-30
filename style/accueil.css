@@ -364,7 +364,7 @@ nav > .connexion > a {
 }
 
 .ecriture > p {
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -377,14 +377,24 @@ nav > .connexion > a {
   display: flex;
 }
 
+.entete > .nom > h2 {
+  font-size: 20px;
+}
+
 .entete > .nom > h3 {
   color: #96c67f;
+  font-size: 18px;
 }
 .entete > img {
   width: 70px;
   height: 70px;
   margin-top: 15px;
   margin-right: 20px;
+}
+
+.contenu p {
+  color: #333;
+  font-size: 18px;
 }
 
 .pers1,
@@ -411,10 +421,17 @@ nav > .connexion > a {
 }
 
 .fleche > img {
-  width: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 30px;
   border: solid #96c67f 1px;
   cursor: pointer;
+}
+
+.Section4 > .pers > .contenu > .pers3 img,
+.Section4 > .pers > .contenu > .pers4 img,
+.Section4 > .pers > .contenu > .pers5 img {
+  border-radius: 30px;
 }
 
 /*footer*/
